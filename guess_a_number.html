@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Welcome to my Corner of the World Wide Web!!!</title>
+</head>
+
+<body>
+    <h1>Welcome to my Corner of the World Wide Web!!!</h1>
+    <p>Please have a look around!</p>
+</body>
+
+</html>
+<!---
+secret_number = 6
+guess = int(input("I'm thinking of a number from 1-10. Want to play?"))
+while guess != secret_number:
+    if guess > secret_number:
+        print("Nope. Too high! Keep guessing!")
+    if guess < secret_number:
+        print("Nope. Too low! Keep guessing!")
+    if guess == secret_number:
+        break
+    guess = int(input("Guess again!"))
+    if guess == secret_number:
+        break
+--->
+<script>
+    var SecretNumber = 6;
+    var guess = Number(prompt("I'm thinking of a number from 1-10. Want to play?"));
+    while (guess != SecretNumber) {
+        if (guess > SecretNumber) {
+            console.log("Nope. Too high! Keep guessing!");
+        }
+        if (guess < SecretNumber) {
+            console.log("Nope. Too low! Keep guessing!");
+        }
+        if (guess === SecretNumber) {
+            break;
+        }
+        var guess = Number(prompt("Guess again!"));
+        if (guess === SecretNumber) {
+            break;
+        }
+
+    }
+
+</script>

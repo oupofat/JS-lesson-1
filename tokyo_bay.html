@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Welcome to my Corner of the World Wide Web!!!</title>
+  </head>
+  <body>
+    <h1>Welcome to my Corner of the World Wide Web!!!</h1>
+    <p>Please have a look around!</p>
+  </body>
+</html>
+
+
+
+<!---
+adult_count = int(input("how many adults are eating? "))
+children_count = int(input("how many children are eating? "))
+day_of_week = input("What day of the week is it? ")
+if day_of_week == "Tuesday":
+  total = adult_count * 15
+else:
+  total = adult_count * 15 + children_count * 10
+print("It will cost you $%d to eat at Tokyo Bay." % total)
+--->
+<script>
+var adult_count = Number(prompt("How many adults are eating?"));
+var children_count = Number(prompt("How many children are eating?"));
+var DayOfWeek = prompt("What day of the week is it?");
+if (DayOfWeek === "Tuesday"){
+    total = adult_count * 15;
+} else {
+    total = adult_count * 15 + children_count * 10
+}
+    console.log("It will cost you" +total+ "to eat at Tokyo Bay.");
+</script>
