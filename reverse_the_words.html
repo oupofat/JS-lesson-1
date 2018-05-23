@@ -30,12 +30,15 @@ print(result_phrase)
     var words = phrase.split(" ");
     var resultWords = [];
     for (var word of words) {
+        
         var resultWord = " ";
         for (var letter of word) {
-            resultWords === letter + resultWord
+            resultWord = letter + resultWord
         }
+        var resultWords= resultWord.concat(resultWords);
+    
     }
-    var resultPhrase = resultWords.join(" ");
-    console.log(resultPhrase);
+      
+    console.log(resultWords);
 
 </script>
