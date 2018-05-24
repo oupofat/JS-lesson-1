@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Welcome to my Corner of the World Wide Web!!!</title>
+</head>
+
+<body>
+    <h1>Welcome to my Corner of the World Wide Web!!!</h1>
+    <p>Please have a look around!</p>
+</body>
+
+</html>
+<!---
+input = "deadpool and captain america"
+result = ""
+word = input.split(" ")
+for letter in word:
+    capitalize = letter[0].upper() + letter[1:]
+    result = "".join(capitalize)
+print(result)    
+--->
+<script>
+let input = "deadpool and captain america";
+let result = [];
+let word = input.split(" ");
+    for (var letter of word){        
+        let wordToUpper =letter.charAt(0).toUpperCase()+letter.slice(1) 
+        result.push(wordToUpper)
+        }
+    let results = result.join(" ");
+console.log(results)
+</script>
+

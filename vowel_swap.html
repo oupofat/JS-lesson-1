@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Welcome to my Corner of the World Wide Web!!!</title>
+</head>
+
+<body>
+    <h1>Welcome to my Corner of the World Wide Web!!!</h1>
+    <p>Please have a look around!</p>
+</body>
+
+</html>
+
+<!---
+user = "something"
+result = ""
+for vowel in user:
+    if vowel == "a":
+        result = result + "i"
+    elif vowel == "e":
+        result = result + "o"
+    elif vowel == "i":
+        result = result + "au"
+    elif vowel == "o":
+        result = result + "a"
+    elif vowel == "u":
+        result = result + "e"
+    else:
+        result += vowel
+print (result)
+--->
+
+<script>
+
+var user = "something";
+var result = "";
+for (var vowel of user){
+    if (vowel === "a"){
+        result = result + "i"
+    } else if (vowel === "e") {
+        result = result + "o"
+    } else if (vowel === "i") {
+        result = result + "u"
+    } else if (vowel === "o") {
+        result = result + "a"
+    } else if (vowel === "u") {
+        result = result + "e"
+    } else {
+        result += vowel
+    }
+} 
+console.log(result);
+
+</script>
